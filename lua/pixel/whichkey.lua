@@ -21,7 +21,7 @@ function M.setup(colors)
 	hi("WhichKeyBorder", { ctermfg = colors.br_black, ctermbg = colors.br_black })
 
 	-- WhichKey specific key types
-	hi("WhichKeyNormal", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("WhichKeyNormal", { ctermfg = colors.white, ctermbg = colors.black })
 	hi("WhichKeyTitle", { ctermfg = colors.blue, cterm = "bold" })
 	hi("WhichKeyIcon", { ctermfg = colors.cyan })
 	hi("WhichKeyIconAzure", { ctermfg = colors.br_blue })
