@@ -20,8 +20,8 @@ function M.setup(colors)
 	hi("NeoTreeGitUntracked", { ctermfg = colors.br_red })
 
 	-- Neo-tree selection and cursor
-	hi("NeoTreeCursorLine", { ctermbg = colors.br_black })
-	hi("NeoTreeSelected", { ctermfg = colors.white, ctermbg = colors.blue })
+	hi("NeoTreeCursorLine", { ctermfg = colors.br_white, ctermbg = colors.br_black })
+	--hi("NeoTreeSelected", { ctermfg = colors.white, ctermbg = colors.blue })
 	hi("NeoTreeSelectedFile", { ctermfg = colors.white, ctermbg = colors.blue })
 	hi("NeoTreeSelectedDirectory", { ctermfg = colors.white, ctermbg = colors.blue })
 
