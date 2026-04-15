@@ -13,8 +13,8 @@ function M.setup(colors)
 
 	-- Blink completion menu
 	hi("BlinkCmpMenu", { ctermfg = colors.white, ctermbg = colors.black })
-	hi("BlinkCmpMenuBorder", { ctermfg = colors.br_black })
-	hi("BlinkCmpMenuSelection", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("BlinkCmpMenuBorder", { ctermfg = colors.white })
+	hi("BlinkCmpMenuSelection", { ctermfg = colors.green, ctermbg = colors.br_green })
 	--hi("BlinkCmpMenuSearchMatch", { ctermfg = colors.black, ctermbg = colors.yellow })
 
 	-- Blink completion items
