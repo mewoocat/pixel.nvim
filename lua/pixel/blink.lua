@@ -1,4 +1,5 @@
 -- Blink.cmp highlights for Pixel colorscheme
+-- Based off: https://cmp.saghen.dev/configuration/appearance.html
 
 -- Import shared utility functions
 local utils = require("pixel.utils")
@@ -11,7 +12,7 @@ function M.setup(colors)
 	local italic = config.disable_italics and "NONE" or "italic"
 
 	-- Blink completion menu
-	hi("BlinkCmpMenu", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("BlinkCmpMenu", { ctermfg = colors.white, ctermbg = colors.black })
 	hi("BlinkCmpMenuBorder", { ctermfg = colors.br_black })
 	hi("BlinkCmpMenuSelection", { ctermfg = colors.white, ctermbg = colors.br_black })
 	--hi("BlinkCmpMenuSearchMatch", { ctermfg = colors.black, ctermbg = colors.yellow })
