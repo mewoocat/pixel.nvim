@@ -14,7 +14,7 @@ function M.setup(colors)
 	hi("BlinkCmpMenu", { ctermfg = colors.white, ctermbg = colors.br_black })
 	hi("BlinkCmpMenuBorder", { ctermfg = colors.br_black })
 	hi("BlinkCmpMenuSelection", { ctermfg = colors.white, ctermbg = colors.br_black })
-	hi("BlinkCmpMenuSearchMatch", { ctermfg = colors.black, ctermbg = colors.yellow })
+	--hi("BlinkCmpMenuSearchMatch", { ctermfg = colors.black, ctermbg = colors.yellow })
 
 	-- Blink completion items
 	hi("BlinkCmpLabel", { ctermfg = colors.white })
@@ -22,6 +22,7 @@ function M.setup(colors)
 	hi("BlinkCmpLabelDescription", { ctermfg = colors.br_black, cterm = italic })
 	hi("BlinkCmpLabelMatch", { ctermfg = colors.red, cterm = "bold" })
 	hi("BlinkCmpLabelDeprecated", { ctermfg = colors.br_black, cterm = "strikethrough" })
+	hi("BlinkCmpKind", { ctermfg = colors.red, ctermbg = colors.red})
 
 	-- Blink signature help
 	hi("BlinkCmpSignature", { ctermfg = colors.white, ctermbg = colors.br_black })
@@ -31,6 +32,7 @@ function M.setup(colors)
 	-- Blink scrollbar
 	hi("BlinkCmpScrollbar", { ctermfg = colors.br_black, ctermbg = colors.br_black })
 	hi("BlinkCmpScrollbarThumb", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("BlinkCmpScrollbarGutter", { ctermfg = colors.red, ctermbg = colors.red })
 
 	-- Blink completion documentation
 	hi("BlinkCmpDoc", { ctermfg = colors.white, ctermbg = colors.br_black })
@@ -57,6 +59,13 @@ function M.setup(colors)
 	hi("BlinkCmpPreview", { ctermfg = colors.white, ctermbg = colors.br_black })
 	hi("BlinkCmpPreviewBorder", { ctermfg = colors.br_black })
 	hi("BlinkCmpPreviewTitle", { ctermfg = colors.red, cterm = "bold" })
+
+	-- TODO:
+	-- BlinkCmpSource
+	-- BlinkCmpDocCursorLine
+	-- BlinkCmpSignatureHelp
+	-- BlinkCmpSignatureHelpBorder
+	-- BlinkCmpSignatureHelpActiveParameter
 end
 
 return M
