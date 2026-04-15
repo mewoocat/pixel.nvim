@@ -35,7 +35,7 @@ function M.setup(colors)
 	hi("WhichKeyIconYellow", { ctermfg = colors.br_yellow })
 
 	-- WhichKey buffer/window
-	hi("WhichKeyBg", { ctermbg = colors.black })
+	hi("WhichKeyBg", { ctermbg = colors.red })
 
 	-- WhichKey modes
 	hi("WhichKeyNormalMode", { ctermfg = colors.br_blue, cterm = "bold" })
