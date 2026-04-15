@@ -11,7 +11,7 @@ function M.setup(colors)
 	local italic = config.disable_italics and "NONE" or "italic"
 
 	-- Noice command line
-	hi("NoiceCmdline", { ctermfg = colors.white, ctermbg = colors.black })
+	hi("NoiceCmdline", { ctermfg = colors.white, ctermbg = colors.br_black })
 	hi("NoiceCmdlineIcon", { ctermfg = colors.red })
 	hi("NoiceCmdlineIconCmdline", { ctermfg = colors.blue })
 	hi("NoiceCmdlineIconFilter", { ctermfg = colors.green })
@@ -20,7 +20,7 @@ function M.setup(colors)
 	hi("NoiceCmdlineIconInput", { ctermfg = colors.cyan })
 	hi("NoiceCmdlineIconLua", { ctermfg = colors.red })
 	hi("NoiceCmdlineIconSearch", { ctermfg = colors.yellow })
-	hi("NoiceCmdlinePopup", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("NoiceCmdlinePopup", { ctermfg = colors.white, ctermbg = colors.black })
 	hi("NoiceCmdlinePopupBorder", { ctermfg = colors.br_black })
 	hi("NoiceCmdlinePopupTitle", { ctermfg = colors.red, cterm = "bold" })
 
