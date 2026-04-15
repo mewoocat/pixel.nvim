@@ -1,7 +1,7 @@
 -- Color definitions for Pixel colorscheme
 -- ANSI color variables for cleaner code
 local colors = {
-	black = 0, -- ansi 0 - background
+	black = 1, -- ansi 0 - background
 	red = 1, -- ansi 1 - red (errors, functions)
 	green = 2, -- ansi 2 - green (strings, added)
 	yellow = 3, -- ansi 3 - yellow (types, warnings)

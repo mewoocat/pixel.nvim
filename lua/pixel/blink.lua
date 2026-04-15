@@ -23,14 +23,14 @@ function M.setup(colors)
 	hi("BlinkCmpLabelMatch", { ctermfg = colors.red, cterm = "bold" })
 	hi("BlinkCmpLabelDeprecated", { ctermfg = colors.br_black, cterm = "strikethrough" })
 
--- Blink signature help
-hi("BlinkCmpSignature", { ctermfg = colors.white, ctermbg = colors.br_black })
-hi("BlinkCmpSignatureBorder", { ctermfg = colors.br_black, ctermbg = colors.br_black })
-hi("BlinkCmpSignatureActiveParameter", { ctermfg = colors.red, ctermbg = colors.br_black })
+	-- Blink signature help
+	hi("BlinkCmpSignature", { ctermfg = colors.white, ctermbg = colors.br_black })
+	hi("BlinkCmpSignatureBorder", { ctermfg = colors.br_black, ctermbg = colors.br_black })
+	hi("BlinkCmpSignatureActiveParameter", { ctermfg = colors.red, ctermbg = colors.br_black })
 
--- Blink scrollbar
-hi("BlinkCmpScrollbar", { ctermfg = colors.br_black, ctermbg = colors.br_black })
-hi("BlinkCmpScrollbarThumb", { ctermfg = colors.white, ctermbg = colors.br_black })
+	-- Blink scrollbar
+	hi("BlinkCmpScrollbar", { ctermfg = colors.br_black, ctermbg = colors.br_black })
+	hi("BlinkCmpScrollbarThumb", { ctermfg = colors.white, ctermbg = colors.br_black })
 
 	-- Blink completion documentation
 	hi("BlinkCmpDoc", { ctermfg = colors.white, ctermbg = colors.br_black })
