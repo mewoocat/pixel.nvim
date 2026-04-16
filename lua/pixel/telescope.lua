@@ -9,9 +9,9 @@ local M = {}
 
 function M.setup(colors)
   -- Telescope general
-  hi("TelescopeSelection", { ctermfg = colors.white, ctermbg = colors.black })
-  hi("TelescopeSelectionCaret", { ctermfg = colors.white, ctermbg = colors.black })
-  hi("TelescopeMultiSelection", { ctermfg = colors.white, ctermbg = colors.black })
+  hi("TelescopeSelection", { ctermfg = colors.black, ctermbg = colors.br_yellow })
+  hi("TelescopeSelectionCaret", { ctermfg = colors.black, ctermbg = colors.br_blue })
+  hi("TelescopeMultiSelection", { ctermfg = colors.black, ctermbg = colors.br_green })
   hi("TelescopeNormal", { ctermfg = colors.white, ctermbg = colors.black })
   hi("TelescopeBorder", { ctermfg = colors.br_black, ctermbg = colors.black })
   hi("TelescopeMatching", { ctermfg = colors.br_green, cterm = "bold" })
