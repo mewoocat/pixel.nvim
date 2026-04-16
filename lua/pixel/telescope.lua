@@ -1,5 +1,6 @@
 -- Telescope support for Pixel colorscheme
 -- This module provides Telescope-related highlight groups
+-- Hightlight groups reference: https://github.com/nvim-telescope/telescope.nvim/blob/master/plugin/telescope.lua
 
 -- Import shared utility functions
 local utils = require("pixel.utils")
@@ -26,7 +27,7 @@ function M.setup(colors)
   hi("TelescopePreviewNormal", { ctermfg = colors.white, ctermbg = colors.black })
   hi("TelescopePreviewBorder", { ctermfg = colors.br_black, ctermbg = colors.black })
   hi("TelescopePreviewTitle", { ctermfg = colors.br_blue, cterm = "bold" })
-  hi("TelescopePreviewLine", { ctermbg = colors.black })
+  hi("TelescopePreviewLine", { ctermbg = colors.br_yellow })
   hi("TelescopePreviewMatch", { ctermfg = colors.black, ctermbg = colors.br_yellow })
 
   -- Telescope results
